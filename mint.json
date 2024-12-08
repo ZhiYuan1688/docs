@@ -14,46 +14,43 @@
     "dark": "#09090b"
   },
   "font": {
-  "headings": {
-    "family": "Roboto"
+    "headings": {
+      "family": "Roboto"
+    },
+    "body": {
+      "family": "Oswald"
+    }
   },
-  "body": {
-    "family": "Oswald"
-  }
-},
   "sidebar": {
-    "items": "card" // 可选值: "container", "card", "border", "undecorated"
+    "items": "card"
   },
-  "background":"gradient",
+  "background": "gradient",
   "tabs": [
-  
     {
-        "name": "Notes",
-        "url": "notes"
+      "name": "Notes",
+      "url": "notes"
     },
     {
       "name": "API Reference",
       "url": "api-reference"
     },
     {
-        "name": "Tech Stack",
-        "url": "tech-stack"
+      "name": "Tech Stack",
+      "url": "tech-stack"
     },
     {
-        "name": "ToMark",
-        "url": "tomark"
+      "name": "ToMark",
+      "url": "tomark"
     },
     {
-        "name": "Overseas",
-        "url": "overseas"
+      "name": "Overseas",
+      "url": "overseas"
     }
   ],
-
   "topbarCtaButton": {
     "name": "ToMark",
     "url": "https://tomark.io"
   },
-
   "navigation": [
     {
       "group": "Get Started",
@@ -88,25 +85,25 @@
         "api-reference/endpoint/delete"
       ]
     },
-     {
+    {
       "group": "Notes",
       "pages": [
         "notes/intro"
       ]
     },
-     {
+    {
       "group": "Tech Stack",
       "pages": [
         "tech-stack/intro"
       ]
     },
-     {
+    {
       "group": "ToMark",
       "pages": [
         "tomark/intro"
       ]
     },
-      {
+    {
       "group": "Overseas",
       "pages": [
         "overseas/intro"
