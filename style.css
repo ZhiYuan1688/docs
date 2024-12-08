@@ -22,3 +22,28 @@
   .px-4.mx-auto.max-w-8xl.lg\:px-8.min-h-screen {
     max-width: none !important;  /* 移除最大宽度限制 */
   }
+
+  /* 移除最大宽度限制并调整相关样式 */
+.max-w-8xl.mx-auto.relative.lg\:pl-\[19rem\] {
+    max-width: none !important;
+    width: 100% !important;
+  }
+  
+  /* 调整内部元素的padding */
+  .lg\:px-12 {
+    padding-left: 3rem !important;  /* 12 * 0.25rem */
+    padding-right: 3rem !important;
+  }
+  
+  /* 确保导航栏内容对齐 */
+  .flex.items-center.lg\:px-12.h-16 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  /* 大屏幕下的左侧padding调整 */
+  @media (min-width: 1024px) {
+    .max-w-8xl.mx-auto.relative.lg\:pl-\[19rem\] {
+      padding-left: 19rem !important;  /* 保持原有的侧边栏空间 */
+    }
+  }
