@@ -36,28 +36,12 @@
         "url": "overseas"
     }
   ],
- "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
+
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "ToMark",
+    "url": "https://tomark.io"
   },
-  "anchors": [
-    {
-      "name": "Notes",
-      "icon": "newspaper",
-      "url": "notes"
-    },
-    {
-      "name": "Tech Stack",
-      "icon": "slack",
-      "url": "tech-stack"
-    }
-  ],
+
   "navigation": [
     {
       "group": "Get Started",
