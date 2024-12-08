@@ -24,8 +24,7 @@
   "sidebar": {
     "items": "card" // 可选值: "container", "card", "border", "undecorated"
   },
-
-  "background":"gradient"
+  "background":"gradient",
   "tabs": [
   
     {
