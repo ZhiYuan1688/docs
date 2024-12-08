@@ -22,7 +22,7 @@
     }
   },
   "sidebar": {
-    "items": "card"
+    "items": "border"
   },
   "background": {
     "style":"gradient"
