@@ -27,6 +27,7 @@
   "background": {
     "style":"gradient"
   },
+  "primaryTab": "Notes",
   "tabs": [
     {
       "name": "Notes",
