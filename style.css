@@ -1,0 +1,20 @@
+/* 调整侧边栏的定位和宽度 */
+#sidebar {
+    left: 0;  /* 确保侧边栏紧贴左侧 */
+    margin-left: 0 !important;  /* 移除负margin */
+  }
+  
+  /* 调整内容区域的padding */
+  #sidebar-content {
+    padding-left: 1rem;  /* 添加适当的左内边距 */
+  }
+  
+  /* 如果需要，可以调整导航项的缩进 */
+  #navigation-items {
+    margin-left: 0;  /* 移除额外的左边距 */
+  }
+  
+  /* 确保logo区域对齐 */
+  .pl-4.mt-5.mb-10 {
+    padding-left: 1rem;  /* 调整logo区域的左内边距 */
+  }
