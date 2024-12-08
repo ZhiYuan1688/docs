@@ -14,6 +14,7 @@
     "dark": "#5D4CFE"
   },
   "tabs": [
+  
     {
         "name": "Blog",
         "url": "blog"
@@ -32,6 +33,7 @@
     },
   ],
   "topbarLinks": [
+  
     {
       "name": "Feedback",
       "url": "mailto:support@mintlify.com"
