@@ -13,6 +13,19 @@
     "light": "#FAFAFA",
     "dark": "#09090b"
   },
+  "font": {
+  "headings": {
+    "family": "Roboto"
+  },
+  "body": {
+    "family": "Oswald"
+  }
+},
+  "sidebar": {
+    "items": "card" // 可选值: "container", "card", "border", "undecorated"
+  },
+
+  "background":"gradient"
   "tabs": [
   
     {
@@ -100,10 +113,5 @@
         "overseas/intro"
       ]
     }
-  ],
-  "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify",
-    "github": "https://github.com/mintlify"
-  }
+  ]
 }
