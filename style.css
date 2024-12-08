@@ -18,3 +18,7 @@
   .pl-4.mt-5.mb-10 {
     padding-left: 1rem;  /* 调整logo区域的左内边距 */
   }
+
+  .px-4.mx-auto.max-w-8xl.lg\:px-8.min-h-screen {
+    max-width: none !important;  /* 移除最大宽度限制 */
+  }
