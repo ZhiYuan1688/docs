@@ -116,12 +116,12 @@
         "tomark/intro"
       ]
     },
-         {
+      {
       "group": "Overseas",
       "pages": [
         "overseas/intro"
       ]
-    },
+    }
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
