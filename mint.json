@@ -13,9 +13,6 @@
     "light": "#8477FF",
     "dark": "#5D4CFE"
   },
-  "primaryTab": {
-    "name": "Home"
-},
   "tabs": [
   
     {
