@@ -24,7 +24,9 @@
   "sidebar": {
     "items": "card"
   },
-  "background": "gradient",
+  "background": {
+    "style":"gradient"
+  },
   "tabs": [
     {
       "name": "Notes",
