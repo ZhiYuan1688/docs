@@ -13,6 +13,24 @@
     "light": "#8477FF",
     "dark": "#5D4CFE"
   },
+  "tabs": [
+    {
+        "name": "Blog",
+        "url": "blog"
+    },
+    {
+        "name": "收集",
+        "url": "collect"
+    },
+    {
+        "name": "ToMark",
+        "url": "tomark"
+    },
+    {
+        "name": "出海",
+        "url": "chuhai"
+    },
+  ],
   "topbarLinks": [
     {
       "name": "Feedback",
