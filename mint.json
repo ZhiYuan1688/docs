@@ -13,27 +13,28 @@
     "light": "#8477FF",
     "dark": "#5D4CFE"
   },
+  "primaryTab": "Notes",
   "tabs": [
   
     {
-        "name": "Blog",
-        "url": "blog"
+        "name": "Notes",
+        "url": "notes"
     },
     {
       "name": "API Reference",
       "url": "api-reference"
     },
     {
-        "name": "收集",
-        "url": "collect"
+        "name": "Tech Stack",
+        "url": "tech-stack"
     },
     {
         "name": "ToMark",
-        "url": "project-tomark"
+        "url": "tomark"
     },
     {
-        "name": "出海",
-        "url": "chuhai"
+        "name": "Overseas",
+        "url": "overseas"
     }
   ],
  "topbarLinks": [
@@ -96,7 +97,31 @@
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
       ]
-    }
+    },
+     {
+      "group": "Notes",
+      "pages": [
+        "notes/intro"
+      ]
+    },
+     {
+      "group": "Tech Stack",
+      "pages": [
+        "tech-stack/intro"
+      ]
+    },
+     {
+      "group": "ToMark",
+      "pages": [
+        "tomark/intro"
+      ]
+    },
+         {
+      "group": "Overseas",
+      "pages": [
+        "overseas/intro"
+      ]
+    },
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
