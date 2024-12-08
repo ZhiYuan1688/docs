@@ -13,14 +13,6 @@
     "light": "#FAFAFA",
     "dark": "#09090b"
   },
-  "font": {
-    "headings": {
-      "family": "Roboto"
-    },
-    "body": {
-      "family": "Oswald"
-    }
-  },
   "sidebar": {
     "items": "border"
   },
