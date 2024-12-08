@@ -33,7 +33,7 @@
   "tabs": [
     {
       "name": "Notes",
-      "url": "notes"
+      "url": "/"
     },
     {
       "name": "API Reference",
