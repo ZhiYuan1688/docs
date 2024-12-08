@@ -86,12 +86,6 @@
       ]
     },
     {
-      "group": "Notes",
-      "pages": [
-        "notes/intro"
-      ]
-    },
-    {
       "group": "Tech Stack",
       "pages": [
         "tech-stack/intro"
