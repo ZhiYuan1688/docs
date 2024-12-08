@@ -1,20 +1,41 @@
-/* 调整侧边栏的定位和宽度 */
+/* 调整侧边栏 */
 #sidebar {
-    left: 0;  /* 确保侧边栏紧贴左侧 */
-    margin-left: 0 !important;  /* 移除负margin */
+    width: 16rem !important;
+    left: 0;
+    margin-left: 0 !important;
   }
   
-  /* 调整内容区域的padding */
-  #sidebar-content {
-    padding-left: 1rem;  /* 添加适当的左内边距 */
+  /* 调整主内容区域 */
+  #content-container {
+    width: 100% !important;
+    margin: 0 auto;
   }
   
-  /* 如果需要，可以调整导航项的缩进 */
-  #navigation-items {
-    margin-left: 0;  /* 移除额外的左边距 */
+  /* 调整内容区域的左边距，与侧边栏配合 */
+  #content-area {
+    padding-left: 17rem !important; /* 稍大于侧边栏宽度 */
+    margin-left: 0 !important;
+    width: 100% !important;
   }
   
-  /* 确保logo区域对齐 */
-  .pl-4.mt-5.mb-10 {
-    padding-left: 1rem;  /* 调整logo区域的左内边距 */
+  /* 调整右侧目录 */
+  #table-of-contents {
+    width: 16rem !important;
+    padding-left: 1rem;
+  }
+  
+  #table-of-contents-content {
+    width: 14rem !important; /* 略小于容器宽度 */
+  }
+  
+  /* 在大屏幕下优化内容最大宽度 */
+  @media (min-width: 1280px) {
+    #content-area {
+      width: calc(100% - 16rem) !important; /* 减去右侧目录的宽度 */
+    }
+  }
+  
+  /* 确保内容不会过宽 */
+  .prose {
+    max-width: 100ch !important;
   }
