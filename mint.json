@@ -20,6 +20,10 @@
         "url": "blog"
     },
     {
+      "name": "API Reference",
+      "url": "api-reference"
+    },
+    {
         "name": "收集",
         "url": "collect"
     },
