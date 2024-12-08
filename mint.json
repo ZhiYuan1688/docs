@@ -61,15 +61,14 @@
       "group": "Get Started",
       "pages": [
         "notes/intro",
-        "notes/intro",
-        "notes/intro"
+        "notes/development"
       ]
     },
     {
       "group": "Essentials",
       "pages": [
-        "notes/intro",
-        "notes/intro"
+        "notes/code",
+        "notes/images"
       ]
     },
     {
